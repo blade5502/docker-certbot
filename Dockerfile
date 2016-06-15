@@ -12,5 +12,5 @@ COPY letsencrypt.conf /etc/nginx/conf.d
 
 RUN rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT["sh -c"]
+ENTRYPOINT["sh","-c"]
 CMD ["bash"]
