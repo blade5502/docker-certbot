@@ -11,3 +11,4 @@ COPY letsencrypt.conf /etc/nginx/conf.d
 
 
 RUN rm -rf /var/lib/apt/lists/*
+CMD ["bash"]
