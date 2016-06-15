@@ -1,7 +1,7 @@
 FROM debian
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y nginx
+RUN apt-get install -y nginx git
 
 RUN mkdir /tmp/letsencrypt-auto
 
